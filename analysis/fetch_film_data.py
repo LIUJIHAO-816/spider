@@ -52,10 +52,10 @@ def get_film_info():
 def test():
     headers_config = {
         'Content-Type': 'application/json; charset=utf-8',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate',
-        'Content-Encoding': 'gzip',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36'
+        'Accept': 'application/json, text/plain, */*',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+        'Origin': 'http://172.20.31.134:59',
+        'Referer': 'http://172.20.31.134:59/login'
     }
 
     r = http.request(
